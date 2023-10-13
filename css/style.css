@@ -59,6 +59,10 @@ h2{
 
 /* Projects Cards */
 
+.projects {
+    padding: 50px;
+}
+
 .projects .row{
     justify-content: space-around;
 }
@@ -68,6 +72,7 @@ h2{
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .card:hover{
@@ -75,15 +80,29 @@ h2{
 }
 
 .card-img-top {
-    height: 250px;
+    height: 150px;
 }
 
+h5{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#projects .btn{
+    background-color: rgb(255, 5, 67) !important;
+    border: rgb(255, 5, 67);
+}
 
 /* Contact Section */
 
 #contact-me{
     background-color: #9f84bd;
     font-family: 'Courier New', Courier, monospace;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact-container > button{
@@ -97,3 +116,4 @@ h2{
     text-decoration: none;
     font-weight: bold;
 }
+
