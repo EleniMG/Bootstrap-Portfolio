@@ -1,8 +1,59 @@
+/* Main Page */
+
+body {
+    background-color:  #ebdce5;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+
+.title > img{
+    width: 100%;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ebc3db !important;
+
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black !important;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* About Me */
+
+.about-me{
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .about-me .row img {
     height: auto;
     width: 100%;
+}
+
+.about-me .row p{
+    padding-bottom: 10px;
 }
 
 /* Projects Cards */
@@ -24,4 +75,24 @@
 
 .card-img-top {
     height: 250px;
+}
+
+
+/* Contact Section */
+
+#contact-me{
+    background-color: #9f84bd;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contact-container > button{
+    background-color: #EDE3E9;
+    border: solid rebeccapurple 2px;
+    ;
+}
+
+#contact-container > button > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
