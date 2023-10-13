@@ -11,17 +11,21 @@
 <body>
     <!-- Nav from Bootstrap -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Eleni Giannopoulos</a>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#about-me">About Me</a>
-              <a class="nav-link" href="#projects">Projects</a>
-              <a class="nav-link" href="#skills-section">Skills</a>
-              <a class="nav-link" href="#contact-me">Contact Me</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 title">
+                    <img src="https://see.fontimg.com/api/renderfont4/W7jn/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/RWxlbmkgR2lhbm5vcG91bG9z/halimun.png" alt="Eleni Giannopoulos"></a>
+                </div>
+                <div class="col-sm-12 col-md-6" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#about-me">About</a>
+                    <a class="nav-link" href="#skills-section">Skills</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#contact-me">Contact</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
       </nav>
 
@@ -36,6 +40,19 @@
                     <p class="col-md-8 fs-4">My name is Eleni Giannopoulos, and I am a family solicitor turned software engineer based in South West London.
                     <br><br>
                     I can communicate and code in a variety of languages - Greek, Arabic, HTML, CSS and JavaScript!</p>
+
+                       <!-- Skills section -->
+                    <section class="skills-section" id="skills-section">
+                        <h2>During the edX Front End Web Development Bootcamp, I hope to learn more about:</h2>
+                        <div class="skills-points">
+                            <p>React</p>
+                            <p>JavaScript</p>
+                            <p>User experience design</p>
+                            <p>Practice using Git</p>
+                            <p>Web APIs</p>
+                        </div>
+                        
+                    </section>
                 </div>
     
                 <div class="col-sm-12 col-lg-6">
@@ -50,7 +67,7 @@
       <div class="container-fluid projects" id="projects">
         <h2>Take a look at what I've been working on...</h2>
         <div class="row">
-            <div class="cardContainer col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="cardContainer col-sm-12 col-md-6 col-xl-2">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="./images/Calculator.png" alt="Calculator">
                     <div class="card-body">
@@ -61,7 +78,7 @@
                 </div>
             </div>
 
-            <div class="cardContainer col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="cardContainer col-sm-12 col-md-6 col-xl-2">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="./images/Weather-app.png" alt="Weather app">
                     <div class="card-body">
@@ -98,20 +115,9 @@
     </div>
 
 
-    <!-- Skills section -->
-    <section class="skills-section" id="skills-section">
-        <h2>I hope to learn more during the coding bootcamp with edX:</h2>
-        <div class="skills-points">
-            <p>React</p>
-            <p>JavaScript</p>
-            <p>User experience design</p>
-            <p>Practice using Git</p>
-            <p>Web APIs</p>
-        </div>
-        
-    </section>
 
     <!-- Footer section -->
+    <!-- Buttons from Bootstrap -->
     <footer id="contact-me">
         <h2>Want to get in contact?</h2>
         <div id="contact-container">

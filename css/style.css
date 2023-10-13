@@ -20,8 +20,9 @@ h2{
     top: 0;
     width: 100%;
     background-color: #ebc3db !important;
-
+    z-index: 1000;
 }
+
 
 .navbar-nav {
     width: 100%;
