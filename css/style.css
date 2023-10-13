@@ -1,0 +1,13 @@
+/* Projects Cards */
+
+.row{
+    justify-content: space-around;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 2px rebeccapurple;
+}
+
+.card-img-top {
+    height: 250px;
+}
