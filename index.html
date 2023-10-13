@@ -16,10 +16,10 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href=".about-me">About Me</a>
-              <a class="nav-link" href=".projects">Projects</a>
-              <a class="nav-link" href="#">Skills</a>
-              <a class="nav-link" href="#">Contact Me</a>
+              <a class="nav-link" href="#about-me">About Me</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#skills-section">Skills</a>
+              <a class="nav-link" href="#contact-me">Contact Me</a>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@
       <!-- Jumbotron section from Bootstrap -->
 
       <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-        <div class="container-fluid py-5 about-me">
+        <div class="container-fluid py-5 about-me" id="about-me">
           <h1 class="display-5 fw-bold">Hello there! 👋</h1>
           <p class="col-md-8 fs-4">My name is Eleni Giannopoulos, and I am a family solicitor turned software engineer based in South West London.
             <br><br>
@@ -39,7 +39,8 @@
 
       <!-- Cards section from Bootstrap -->
 
-      <div class="container-fluid projects">
+      <div class="container-fluid projects" id="projects">
+        <h2>Take a look at what I've been working on...</h2>
         <div class="row">
             <div class="cardContainer col-sm-12 col-md-6 col-xl-2">
                 <div class="card" style="width: 18rem;">
@@ -88,5 +89,28 @@
         </div>
     </div>
 
+
+    <!-- Skills section -->
+    <section class="skills-section" id="skills-section">
+        <h2>I hope to learn more during the coding bootcamp with edX:</h2>
+        <div class="skills-points">
+            <p>React</p>
+            <p>JavaScript</p>
+            <p>User experience design</p>
+            <p>Practice using Git</p>
+            <p>Web APIs</p>
+        </div>
+        
+    </section>
+
+    <!-- Footer section -->
+    <footer id="contact-me">
+        <h2>Want to get in contact?</h2>
+        <div id="contact-container">
+            <button type="button" class="btn btn-primary btn-lg contact-links"><a href="mailto:elenimarie@hotmail.com" target="_blank">Email</a></button>
+            <button type="button" class="btn btn-primary btn-lg contact-links"><a href="https://github.com/EleniMG" target="_blank">GitHub</a></button>
+            <button type="button" class="btn btn-primary btn-lg contact-links"><a href="https://www.linkedin.com/in/eleni-giannopoulos/" target="_blank">LinkedIn</a></button>
+        </div>
+    </footer>
 </body>
 </html>

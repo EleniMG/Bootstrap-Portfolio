@@ -4,6 +4,12 @@
     justify-content: space-around;
 }
 
+.cardContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .card:hover{
     box-shadow: 10px 10px 2px rebeccapurple;
 }
