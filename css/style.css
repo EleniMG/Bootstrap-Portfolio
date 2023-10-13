@@ -1,11 +1,19 @@
+/* About Me */
+
+.about-me .row img {
+    height: auto;
+    width: 100%;
+}
+
 /* Projects Cards */
 
-.row{
+.projects .row{
     justify-content: space-around;
 }
 
 .cardContainer{
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
