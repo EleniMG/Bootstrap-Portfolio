@@ -23,22 +23,24 @@ You can also click any of the links in the 'Contact Me' section to send an email
 
 The Portfolio webpage is responsive, and so will adjust according to your screen size. Please see the following screenshots as an example:
 
-![Laptop-screen-size-picture-1](./images/bp-max-size-1)
-![Laptop-screen-size-picture-1](images/max-size-2.png)
-![Mobile-screen-size-picture-1](images/mobile-size-1.png)
-![Mobile-screen-size-picture-1](images/mobile-size-2.png)
+![Laptop-screen-size-picture-1](./images/bp-max-size-1.png)
+![Laptop-screen-size-picture-1](./images/bp-max-size-2.png)
+![Mobile-screen-size-picture-1](./images/bp-min-size-1.png)
+![Mobile-screen-size-picture-1](./images/bp-min-size-2.png)
 
 
 ## Credits
 
 The following third-party assets were used to assist with this code:
 
-[Grid Gaps - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
+[Grid System - Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/)
 
-[Z-index - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
+[Cards - Bootstrap](https://getbootstrap.com/docs/4.0/components/card/)
 
-[CSS Variables - W3 Schools](https://www.w3schools.com/css/css3_variables.asp#:~:text=To%20create%20a%20variable%20with,use%20the%20var()%20function.)
+[Jumbotron - Bootstrap](https://getbootstrap.com/docs/4.0/components/jumbotron/)
 
-[How to create a sticky header - W3 Schools](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
+[Navbar - Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
 
-[Guide to CSS Flexbox - CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[Box-shadow - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+
+[Halimun font - Fontspace](https://www.fontspace.com/halimun-font-f30001)
