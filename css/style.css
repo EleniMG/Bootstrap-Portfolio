@@ -57,10 +57,14 @@ h2{
     padding-bottom: 10px;
 }
 
+.skills-section{
+    padding-top: 75px;
+}
+
 /* Projects Cards */
 
 .projects {
-    padding: 50px;
+    padding: 75px 50px;
 }
 
 .projects .row{
