@@ -117,3 +117,16 @@ h5{
     font-weight: bold;
 }
 
+#first-button:hover{
+    box-shadow: #440e82 -10px 10px;
+}
+
+
+#second-button:hover{
+    box-shadow: #440e82 0px 10px;
+}
+
+
+#third-button:hover{
+    box-shadow: #440e82 10px 10px;
+}
