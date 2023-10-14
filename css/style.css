@@ -4,23 +4,23 @@ body {
     background-color:  #ebdce5;
 }
 
-h2{
+h2 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
 
 /* Navigation Bar */
 
-.title > img{
+.title > img {
     width: 100%;
 }
 
-.nav{
+.nav {
     justify-content: space-around !important;
     flex-wrap: wrap !important;
 }
 
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,7 +34,7 @@ h2{
     flex-direction: row;
 }
 
-.nav-link{
+.nav-link {
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Courier New', Courier, monospace;
@@ -46,9 +46,13 @@ h2{
     justify-content: center;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 /* About Me */
 
-.about-me{
+.about-me {
     margin-top: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -58,11 +62,11 @@ h2{
     width: 100%;
 }
 
-.about-me .row p{
+.about-me .row p {
     padding-bottom: 10px;
 }
 
-.skills-section{
+.skills-section {
     padding-top: 75px;
 }
 
@@ -72,11 +76,11 @@ h2{
     padding: 75px 50px;
 }
 
-.projects .row{
+.projects .row {
     justify-content: space-around;
 }
 
-.cardContainer{
+.cardContainer {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -84,7 +88,7 @@ h2{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 10px 10px 2px rebeccapurple;
 }
 
@@ -92,19 +96,19 @@ h2{
     height: 150px;
 }
 
-h5{
+h5 {
     font-weight: bold;
     text-decoration: underline;
 }
 
-#projects .btn{
+#projects .btn {
     background-color: rgb(255, 5, 67) !important;
     border: rgb(255, 5, 67);
 }
 
 /* Contact Section */
 
-#contact-me{
+#contact-me {
     background-color: #9f84bd;
     font-family: 'Courier New', Courier, monospace;
     padding: 200px;
@@ -114,7 +118,7 @@ h5{
     align-items: center;
 }
 
-#contact-container > button{
+#contact-container > button {
     background-color: #EDE3E9;
     border: solid rebeccapurple 2px;
     ;
@@ -126,31 +130,31 @@ h5{
     font-weight: bold;
 }
 
-#first-button:hover{
+#first-button:hover {
     box-shadow: #440e82 -10px 10px;
 }
 
 
-#second-button:hover{
+#second-button:hover {
     box-shadow: #440e82 0px 10px;
 }
 
 
-#third-button:hover{
+#third-button:hover {
     box-shadow: #440e82 10px 10px;
 }
 
-#first-button > a:hover{
+#first-button > a:hover {
     color: #440e82;
     background-color: black;
 }
 
-#second-button > a:hover{
+#second-button > a:hover {
     color: white;
     background-color: black;
 }
 
-#third-button > a:hover{
+#third-button > a:hover {
     color: rgb(64, 107, 237);
     background-color: black;
 }
