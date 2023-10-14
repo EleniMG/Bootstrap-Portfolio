@@ -17,13 +17,13 @@ Visit the [Bootstrap Portfolio](https://elenimg.github.io/Bootstrap-Portfolio/) 
 
 Click any of the links in the navigation bar at the top to go to any of the corresponding sections in the webpage. 
 
-You can click any of the images or headers in the 'Work' section to open any of the deployed applications displayed.
+You can click any of the images or headers in the Projects section, titled "Take a look at what I've been working on..." to open any of the deployed applications displayed.
 
 You can also click any of the links in the 'Contact Me' section to send an email, view my GitHub or view my LinkedIn pages.
 
 The Portfolio webpage is responsive, and so will adjust according to your screen size. Please see the following screenshots as an example:
 
-![Laptop-screen-size-picture-1](images/max-size-1.png)
+![Laptop-screen-size-picture-1](./images/bp-max-size-1)
 ![Laptop-screen-size-picture-1](images/max-size-2.png)
 ![Mobile-screen-size-picture-1](images/mobile-size-1.png)
 ![Mobile-screen-size-picture-1](images/mobile-size-2.png)
