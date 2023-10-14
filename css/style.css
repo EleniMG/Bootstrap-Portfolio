@@ -15,6 +15,11 @@ h2{
     width: 100%;
 }
 
+.nav{
+    justify-content: space-around !important;
+    flex-wrap: wrap !important;
+}
+
 .navbar{
     position: fixed;
     top: 0;
@@ -26,7 +31,7 @@ h2{
 
 .navbar-nav {
     width: 100%;
-    justify-content: center;
+    flex-direction: row;
 }
 
 .nav-link{
