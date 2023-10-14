@@ -130,3 +130,19 @@ h5{
 #third-button:hover{
     box-shadow: #440e82 10px 10px;
 }
+
+#first-button > a:hover{
+    color: #440e82;
+    background-color: black;
+}
+
+#second-button > a:hover{
+    color: white;
+    background-color: black;
+}
+
+#third-button > a:hover{
+    color: rgb(64, 107, 237);
+    background-color: black;
+}
+
